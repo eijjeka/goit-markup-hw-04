@@ -375,7 +375,9 @@ ul {
 }
 
 .clients-link {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 94px;
 
@@ -389,6 +391,15 @@ ul {
 .clients-link:hover,
 .clients-link:focus {
   border-color: var(--accent-color);
+}
+
+.icon-client {
+  fill: #afb1b8;
+}
+
+.icon-client:hover,
+.icon-client:focus {
+  fill: var(--accent-color);
 }
 
 /* ----------------------------------------------FOOTER----------------------------------------- */
