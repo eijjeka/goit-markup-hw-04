@@ -310,8 +310,6 @@ ul {
 }
 
 .person-item {
-  padding-bottom: 30px;
-
   background-color: var(--main-color-title);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -322,15 +320,13 @@ ul {
   margin-right: 30px;
 }
 
-.person-item .img {
-  margin-bottom: 30px;
-}
-
 .person-block {
   display: flex;
   max-width: 270px;
+  height: 168px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .person-title {
